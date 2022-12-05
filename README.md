@@ -1,4 +1,4 @@
-# Accessibility-code-refactor
+# Accessibility Code Refactor
 
 ## Description 
 
@@ -7,9 +7,11 @@ This Accessibility Code Refactor Project of the Horiseon WebPage will follow and
 
 ### User Story
 
+```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
+```
 
 
 ### Acceptance Criteria
@@ -38,12 +40,12 @@ Website accessibility standards will be achieve when the following have been acc
 
 ## Screenshot
 
-![Horiseon WebPage screenshot](assets\images\Screenshot-2022-12-05-144001.png)
+![Horiseon WebPage screenshot] (assets\images\screenshot-2022-12-05-144001.png)
 
 
 ## Author
 
-[Page published at](https://smguerra.github.io/accessibility-code-refactor/)
+[Page published at] (https://smguerra.github.io/accessibility-code-refactor/)
 
  ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
