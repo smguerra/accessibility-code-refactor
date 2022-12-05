@@ -7,14 +7,15 @@
 body {
     background-color: #d9dcd6;
 }
-/* class="header", selector has been replaced by the header element selector in order to meet accessibility standards. " browsers and screen readers can interpret Semantic HTML better, this will makes it more accessible */
+/* The <header> element represents a container for introductory content or a set of navigational links. */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*<header> selector used to meet accessibility standards. " browsers and screen readers can interpret Semantic HTML better, this will makes it more accessible */ 
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/* I have replaced div tag with <nav>, this will follow accessibility standards. */
+/* The <nav> element defines a set of navigation links. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-/* <!-- I wrapped the main content with a main tag; it helps to follow a semantic HTML --> */
+/* .hero featured large top image,   */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +70,13 @@ p {
     margin-left: 25px;
 }
 
+/* .content class selects the main tag, as shown in index.html file,  represents the content section of Horiseon Services  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*.benefits class selects the aside tag, as shown in index.html file, defines some content aside from the content it is placed in. aside content is often placed as a sidebar in a document.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,27 +88,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* consolidating CSS makes it more efficient */
+
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h2, .benefit-brand h2, .benefit-cost h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 18px;
 }
 
-.benefit-brand h3 {
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -114,27 +109,17 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
+/* consolidating CSS makes it more efficient */
 
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* consolidating CSS makes it more efficient */
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +128,16 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* footer element selector, has replaced class="header" selector; this will help assistive technologies (that depend on the semantic structure and meaning of web pages) to convey information to their users to help them to browse the web */
+/* The <footer> tag defines a footer for a document or section,typically contains authorship information, copyright information, contact information, etc.*/
 
 footer {
     padding: 30px;
@@ -195,7 +145,6 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* footer element selector, has replaced class="header" selector; this will help assistive technologies (that depend on the semantic structure and meaning of web pages) to convey information to their users to help them to browse the web */
 
 footer h2 {
     font-size: 20px;
