@@ -37,5 +37,21 @@ Website accessibility standards will be achieve when the following have been acc
 - alt text where added to images 
 - Organized css file to match sections in html file
 
+<<<<<<< HEAD
+=======
+
+## Screenshot
+
+![](assets/images/screenshot.png)
+
+
+## Author
+
+Sandra Guerra
+
+
+Page published at: https://smguerra.github.io/accessibility-code-refactor/
+
+>>>>>>> 16219db6808da24e9cfa3ef823e5a8464042ec70
  ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
