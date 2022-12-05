@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* I have replaced div tag with <nav>, this will follow accessibility standards. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* <!-- I wrapped the main content with a main tag; it helps to follow a semantic HTML --> */
 .hero {
     height: 800px;
     width: 100%;
@@ -188,12 +188,14 @@ p {
     font-size: 36px;
 }
 /* footer element selector, has replaced class="header" selector; this will help assistive technologies (that depend on the semantic structure and meaning of web pages) to convey information to their users to help them to browse the web */
+
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* footer element selector, has replaced class="header" selector; this will help assistive technologies (that depend on the semantic structure and meaning of web pages) to convey information to their users to help them to browse the web */
 
 footer h2 {
     font-size: 20px;
