@@ -40,12 +40,12 @@ Website accessibility standards will be achieve when the following have been acc
 
 ## Screenshot
 
-![Horiseon WebPage screenshot](assets\images\screenshot-2022-12-05-144001.png)
+![](assets\images\screenshot.png)
 
 
 ## Author
 
-[Page published at](https://smguerra.github.io/accessibility-code-refactor/)
+[Page published at:](https://smguerra.github.io/accessibility-code-refactor/)
 
  ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
